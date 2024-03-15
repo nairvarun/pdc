@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<omp.h>
 
-#define NUM_THREADS 100
+#define NUM_THREADS 10
 int main() {
 	int n = NUM_THREADS;
 	#pragma omp parallel num_threads(n)
